@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    main{
+        max-width: 768px;
+        min-width: 504px;
+    }
+    header{
+        max-width: 3000px;
+        min-width: 518px;
+    }
+    nav{
+        max-width: 3000px;
+        min-width: 502px;
+    }
+    h1{
+        font-size: 21px;
+    }
+    footer{
+        min-width: 520px;
+    }
+}
