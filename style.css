@@ -34,7 +34,7 @@ header{
     text-align: center;
     background-image: linear-gradient(var(--cor02), var(--cor05));
     padding: 1px;
-    min-width: 516px;
+    min-width: 400px;
     max-width: 3000px;
 }
 nav{
@@ -45,7 +45,7 @@ nav{
     background-image: linear-gradient(var(--cor05), var(--cor05));
     color:white;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.664);
-    min-width: 500px;
+    min-width: 400px;
     max-width: 3000px;
 }
 nav > a{
@@ -90,7 +90,7 @@ main{
     padding: 8px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
-    min-width: 501px;
+    min-width: 400px;
     max-width: 3000px;
 }
 article{
@@ -157,7 +157,7 @@ footer{
     text-align: center;
     color: white;
     background-color: var(--cor04);
-    min-width: 518px;
+    min-width: 400px;
     max-width: 3000px;
 }
 #main{
