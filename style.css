@@ -26,7 +26,7 @@ body{
     margin: auto;
     text-indent: 30px;
     line-height: 2em;
-    font-size: 1em;
+    font-size: 15px;
     font-style: normal;
 } 
 header{
@@ -73,6 +73,7 @@ nav > a:hover{
 h1{
     font-family: Android, cursive;
     padding: 1px;
+    font-size: 10px;
 }
 h2{
     background-image: radial-gradient(var(--cor06),white);
@@ -155,6 +156,7 @@ footer{
     text-align: center;
     color: white;
     background-color: var(--cor04);
+    min-width: 300px;
     max-width: 3000px;
 }
 #main{
