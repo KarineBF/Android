@@ -34,16 +34,17 @@ header{
     text-align: center;
     background-image: linear-gradient(var(--cor02), var(--cor05));
     padding: 1px;
-    min-width: 500px;
+    min-width: 516px;
     max-width: 3000px;
 }
 nav{
     text-align: left;
-    margin: 0px;
     padding: 9px;
     margin: auto;
     background-image: linear-gradient(var(--cor05), var(--cor05));
     color:white;
+    min-width: 500px;
+    max-width: 3000px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.664);   
 }
 nav > a{
@@ -84,9 +85,11 @@ p{
     margin: 20px;
 }
 main{
-    background-color: white; 
+    background-color: white;
     padding: 8px;
     margin: auto;
+    min-width: 501px;
+    max-width: 3000px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
     max-width: 1000px;
 }
@@ -154,7 +157,8 @@ footer{
     text-align: center;
     color: white;
     background-color: var(--cor04);
-
+    min-width: 520px;
+    max-width: 3000px;
 }
 #main{
     padding-bottom: 10px;
