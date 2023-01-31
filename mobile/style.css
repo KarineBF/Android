@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 300px) and (max-width: 768px){
-    main{
-        width: 504px;
-    }
+@media screen and (min-width: 768px) {
     header{
-        width: 518px;
+        width: 100vh;
+        height: 100vh;
     }
     nav{
-        width: 502px;
+        width: 100vh;
+        height: 100vh;
     }
-    h1{
-        font-size: 21px;
+    main{
+        width: 100vh;
+        height: 100vh;
+        position: relative;
     }
     footer{
-        width: 520px;
+        width: 100vh;
+        height: 100vh;
     }
 }
